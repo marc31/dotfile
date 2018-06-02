@@ -1,0 +1,14 @@
+xterm*faceName: DejaVu Sans Mono
+xterm*faceSize: 12 
+
+! Permit copy and past for mac with alt+maj+c
+*VT100.translations: #override Meta <KeyPress> V: insert-selection(PRIMARY, CUT_BUFFERO) \n
+
+
+! Fonts {{{
+Xft.antialias: true
+Xft.hinting:   true
+Xft.rgba:      rgb
+Xft.hintstyle: hintfull
+Xft.dpi:       128
+! }}}
